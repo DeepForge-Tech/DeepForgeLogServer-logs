@@ -57,5 +57,5 @@ app.get("/wake_up_tests", async function (req, res) {
 })
 
 app.listen(PORT, () => {
-    console.log('Logs listening on port ' + PORT);
+    console.log('Logs microservice listening on port ' + PORT);
 });
